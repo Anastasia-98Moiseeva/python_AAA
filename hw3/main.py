@@ -1,4 +1,3 @@
-from collections import defaultdict
 from typing import List
 
 
@@ -55,6 +54,8 @@ class CountVectorizer:
         :return: максимальная длинна строки
         """
         length_list = [len(row) for row in matrix]
+        if not length_list:
+            return 0
         return max(length_list)
 
 
