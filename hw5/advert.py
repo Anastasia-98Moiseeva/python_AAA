@@ -28,11 +28,11 @@ class JsonObject:
 
 class Advert(ColorizeMixin, JsonObject, BaseAdvert):
     def __init__(self, json_dict):
+        super().__init__(json_dict)
         if 'title' not in json_dict.keys():
             raise AttributeError('title does not exists')
         if 'price' not in json_dict.keys():
             setattr(self, 'price', 0)
-        super().__init__(json_dict)
 
     @property
     def price(self):
