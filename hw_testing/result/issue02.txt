@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+collecting ... collected 3 items
+
+issue02.py::test_decode[... --- ...-SOS] PASSED                          [ 33%]
+issue02.py::test_decode[. . .-EEE] PASSED                                [ 66%]
+issue02.py::test_decode[...-- -.... ----.-369] PASSED                    [100%]
+
+============================== 3 passed in 0.01s ===============================

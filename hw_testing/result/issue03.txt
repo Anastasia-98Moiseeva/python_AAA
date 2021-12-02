@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+collecting ... collected 4 items
+
+issue03.py::TestOheHotEncoding::test_with_assert_equal PASSED            [ 25%]
+issue03.py::TestOheHotEncoding::test_with_assert_raises PASSED           [ 50%]
+issue03.py::TestOheHotEncoding::test_with_assert_true PASSED             [ 75%]
+issue03.py::TestOheHotEncoding::test_with_asset_not_in PASSED            [100%]
+
+============================== 4 passed in 0.02s ===============================
