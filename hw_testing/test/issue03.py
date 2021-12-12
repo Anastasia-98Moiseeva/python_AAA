@@ -24,4 +24,4 @@ class TestOheHotEncoding(unittest.TestCase):
 
     def test_with_assert_raises(self):
         with self.assertRaises(TypeError):
-            actual = fit_transform()
+            fit_transform()

@@ -7,11 +7,11 @@ import pytest
 class TestWhatIsYearNow:
     @patch('urllib.request.urlopen', io.StringIO)
     def test_ymd_sep(self):
-        json_data = '{"currentDateTime": "2021-12-11 10:05:43"}'
+        json_data = '{"currentDateTime": "2020-12-11 10:05:43"}'
         with patch('what_is_year_now.API_URL', json_data):
             year = what_is_year_now()
 
-        assert year == 2021
+        assert year == 2020
 
     @patch('urllib.request.urlopen', io.StringIO)
     def test_dmy_sep(self):

@@ -26,4 +26,4 @@ def test_with_assert_true():
 
 def test_with_assert_raises():
     with pytest.raises(TypeError):
-        actual = fit_transform()
+        fit_transform()
